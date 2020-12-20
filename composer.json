@@ -1,0 +1,21 @@
+{
+    "name": "smm/yii2-crudgenerator",
+    "description": "Description SMM CRUD Generator",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alex@dev.ua"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "smm\\crudgenerator\\": ""
+        }
+    }
+}
